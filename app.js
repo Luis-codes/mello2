@@ -95,11 +95,55 @@
 // var areSame = 'Hello World!' === 'Hello World!';
 // console.log('areSame:', areSame);
 
-var areSame = 10 === '10';
-console.log('areSame:', areSame);
+// var areSame = 10 == '10';
+// console.log('areSame:', areSame);
 
+// var areSame = 10 === '10';
+// console.log('areSame:', areSame);
 
+// var areSame1 = false == 0;
+// console.log('false == 0:', areSame1);
 
+// var areSame2 = false == '';
+// console.log('false == "":', areSame2);
+
+// var areSame3 = true == '1';
+// console.log('true == "1":', areSame3);
+
+// var areSame4 = null == undefined;
+// console.log('null == undefined', areSame4);
+
+// var areSame1 = 10 !== 10;
+// console.log('areSame1:', areSame1);
+
+// var areSame2 = 6 !== '6';
+// console.log('areSame2:', areSame2);
+
+// var shouldExecute = true;
+// if (shouldExecute === true) {
+// 	console.log('Hazaaaa! This code ran!');
+// }
+
+// var num = 9;
+
+// if (num > 10) {
+// 	console.log('num is more than 10!');
+// } else if (num < 8) {
+// 	console.log('num is less than 8!');
+// } else {
+// 	console.log('num is somewhere between 8 and 10!');
+// }
+
+var num = 6;
+
+// BOTH conditionals must be true
+// if (num > 3 && num < 10) {
+// 	console.log('The number is larger than 3 AND smaller than 10');
+// }
+// EITHER condition must be true
+if (num === 6 || num > 10) {
+	console.log('The number is equal to six or larger than 10');
+}
 
 
 
