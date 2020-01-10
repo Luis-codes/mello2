@@ -134,16 +134,107 @@
 // 	console.log('num is somewhere between 8 and 10!');
 // }
 
-var num = 6;
+// var num = 6;
 
 // BOTH conditionals must be true
 // if (num > 3 && num < 10) {
 // 	console.log('The number is larger than 3 AND smaller than 10');
 // }
 // EITHER condition must be true
-if (num === 6 || num > 10) {
-	console.log('The number is equal to six or larger than 10');
+// if (num === 6 || num > 10) {
+// 	console.log('The number is equal to six or larger than 10');
+// }
+
+// for (var i = 1; i <= 10; i++) {
+// 	console.log(i);
+// }
+
+// var counter = 1;
+
+// while (counter <= 10) {
+// 	console.log(counter);
+// 	counter++
+// }
+
+// var count = 1;
+
+// while (count < 10 ) {
+// 	console.log(count);
+// 	count += 2;
+// }
+
+// var strangeKids = ['Will', 'Mike', 'Lucas', 'Dustin', 'Max', 'Eleven'];
+
+// strangeKids.forEach(function(kid, index) {
+// 	console.log(`${index + 1}, ${kid}`);
+// });
+
+// var movies = ['I Robot', 'Interstellar', 'I am Legend', 'Armaggedon']
+
+// movies.forEach(function(movie) {
+// 	console.log(movie);
+// });
+
+// function sayHello(name) {
+// 	console.log(`Hello ${name}!`);
+// }
+
+// function fullName(first, last) {
+// 	return `${first} ${last}!`;
+// }
+
+// var name = fullName('John', 'Smith');
+// sayHello(name);
+
+// function subtract(num1, num2) {
+// 	var difference = num1 - num2;
+// 	return difference; 
+// }
+
+// var difference = subtract(12, 4);
+// console.log(difference);
+
+var sum = add(6, 7)
+console.log(sum);
+
+function add(num1, num2) {
+	var sum = num1 + num2;
+	return sum;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
