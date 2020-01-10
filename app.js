@@ -58,12 +58,45 @@
 // var nullVal = null;
 // console.log(nullVal); // null
 
-var favoriteThings = ['dogs', 'nature', 'friends'];
-var firstThing = favoriteThings[0];
-var secondThing = favoriteThings[1];
-var thirdThing = favoriteThings[2];
+// var favoriteThings = ['dogs', 'nature', 'friends'];
+// var firstThing = favoriteThings[0];
+// var secondThing = favoriteThings[1];
+// var thirdThing = favoriteThings[2];
 
+// console.log(`I like ${firstThing}, ${secondThing}, and ${thirdThing}`);
 
+// var car = {
+// 	make: 'Tesla',
+//	model: 'Model 3',
+//	color: 'red'
+// };
+
+// var key = 'color';
+
+// Values are most commonly accessed using dot notation
+// console.log(`Car Make: ${car.make}`); // Tesla
+
+// Values can also be accessed using bracket notation
+// similar to ruby hashes
+// console.log(`Car Model: ${car['model']}`); // Model 3
+
+// Bracket notation is useful for dynamically accessing properties using a variable string
+// console.log(`Car Color: ${car[key]}`); // Car Color: red
+// objects in JavaScript can have keys and values assigned dynamically after creation
+// car.engineSound = 'Vroom!!!';
+
+// console.log(`Car Engine Sound: ${car.engineSound}`); // Car Engine Sound: "Vroom!!!"
+
+// var willLearnJavaScript = false;
+// willLearnJavaScript = !willLearnJavaScript;
+
+// console.log(willLearnJavaScript);
+
+// var areSame = 'Hello World!' === 'Hello World!';
+// console.log('areSame:', areSame);
+
+var areSame = 10 === '10';
+console.log('areSame:', areSame);
 
 
 
